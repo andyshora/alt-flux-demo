@@ -92,6 +92,10 @@ class ItemStore {
     });
   }
 
+  getAll() {
+    return this.getState().items;
+  }
+
   getItem(id) {
     var { items } = this.getState();
     for (var i = 0; i < items.length; i += 1) {

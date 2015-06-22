@@ -10,11 +10,13 @@
   "devDependencies": {
     "browserify": "^8.0.3",
     "reactify": "^0.17.1",
-    "exorcist": "~0.4.0"
+    "exorcist": "~0.4.0",
+    "jest-cli": "~0.4.13"
   },
   "scripts": {
     "build": "browserify -t [reactify --es6] src/App.jsx > build/app.js",
-    "start": "npm run build && open 'index.html' "
+    "start": "npm run build && open 'index.html'",
+    "test": "jest"
   },
   "author": "Josh Perez <josh@goatslacker.com>",
   "license": "MIT"
