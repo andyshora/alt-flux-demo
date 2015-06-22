@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "browserify": "^8.0.3",
-    "reactify": "^0.17.1"
+    "reactify": "^0.17.1",
+    "exorcist": "~0.4.0"
   },
   "scripts": {
     "build": "browserify -t [reactify --es6] src/App.jsx > build/app.js",

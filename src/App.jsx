@@ -1,7 +1,7 @@
 var React = require('react');
-var Locations = require('./components/Locations.jsx');
+var Items = require('./components/Items.jsx');
 
 React.render(
-  <Locations />,
+  <Items />,
   document.getElementById('ReactApp')
 );
